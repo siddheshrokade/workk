@@ -1,0 +1,55 @@
+body{
+	background-color:#303030;
+	font-family: sans-serif;
+	justify-content: center;
+	margin-top: 25px;
+}
+.headline{
+	font-family:'Times New Roman', Times, serif;
+	position: absolute;
+	color: #fff;
+	position: absolute;
+	text-align: center;
+    top: 35%;
+    left: 30%;
+	font-size: 70px;
+	transform: translate( -50%, -50% );
+
+}
+.slider{
+	box-shadow: 5px #000000;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider .left-slide,.slider .right-slide{
+  position: absolute;
+  top:50%;
+  cursor: pointer;
+}
+.btn{
+	padding: 5px 10px;
+	color: #000000;
+	font-size: 20px;
+}
+.slider .left-slide{
+	left: 0px;
+}
+.slider .right-slide{
+	right: 0px;
+}
+.slider .slider-items .item{
+	display: none;
+	position: relative;
+}
+.slider .slider-items .item.active{
+	display: block;
+}
+
+
+
+
+
+
+
+
